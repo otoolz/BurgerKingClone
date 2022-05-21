@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var isMembership = false
     var body: some View {
             VStack {
+                // HomeView Header
                 HeaderView()
                 
+                // HomeView Body
                 ScrollView {
-                    MembershipCardView()
-                    // MembershipCardView
+                    //Membership Card View
+                    Button(action: {
+                        isMembership = true
+                    }, label: {
+                        MembershipCardView()
+                    }).fullScreenCover(isPresented: $isMembership, content: {
+                        MembershipView(isMembership: $isMembership)
+                    })
+                    
                     // AdShowView
                     // HStack { KingOrderCardView, DeliveryCardView }
                     // NewProductView

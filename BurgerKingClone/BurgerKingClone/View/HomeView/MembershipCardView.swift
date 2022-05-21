@@ -8,26 +8,26 @@
 import SwiftUI
 
 struct MembershipCardView: View {
+    
+    @State private var isMembership = false
+    
     let cardWidth = 380
     let cardHeight = 100
     
     var body: some View {
         HStack {
             VStack {
-                
                 Text("Membership")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 10)
                     .font(.custom(FontsManager.Flame.bold, size: 22))
-                    .foregroundColor(Color("BurgerBrown"))
                 
                 Text("Check out membership-only benefits and special coupons right now!")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 10)
                     .font(.custom(FontsManager.Flame.regular, size: 12))
-                    .foregroundColor(Color("BurgerBrown"))
             }
+            .padding(.leading, 10)
             .frame(maxWidth: CGFloat(cardWidth/2) - 20)
+            .foregroundColor(Color("BurgerBrown"))
             
             Spacer()
             
@@ -35,8 +35,6 @@ struct MembershipCardView: View {
                 .resizable()
                 .scaledToFit()
                 .padding(25)
-                
-            
         }
         .background(.white)
         .cornerRadius(15)
