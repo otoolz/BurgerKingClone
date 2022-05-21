@@ -12,11 +12,15 @@ struct HomeView: View {
             VStack {
                 HeaderView()
                 
+                ScrollView {
+                    MembershipCardView()
+                    // MembershipCardView
+                    // AdShowView
+                    // HStack { KingOrderCardView, DeliveryCardView }
+                    // NewProductView
+                }
                 
-                // membershipView
-                // ShowView
-                // KingOrderView, DeliveryView
-                // It's NEW
+                
                 
                 Spacer()
                 

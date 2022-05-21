@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0BF65CA28392237002906D6 /* MembershipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF65C928392237002906D6 /* MembershipCardView.swift */; };
+		A0BF65D028392BE1002906D6 /* FlameBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0BF65CC28392BE1002906D6 /* FlameBold.otf */; };
+		A0BF65D128392BE1002906D6 /* FlameSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0BF65CD28392BE1002906D6 /* FlameSans.otf */; };
+		A0BF65D228392BE1002906D6 /* FlameRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0BF65CE28392BE1002906D6 /* FlameRegular.otf */; };
+		A0BF65D328392BE1002906D6 /* FlameCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0BF65CF28392BE1002906D6 /* FlameCondensed.otf */; };
+		A0BF65D628392D0C002906D6 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF65D528392D0C002906D6 /* FontsManager.swift */; };
 		A0F7992B2838C7AC002B9FF5 /* BurgerKingCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F7992A2838C7AC002B9FF5 /* BurgerKingCloneApp.swift */; };
 		A0F7992D2838C7AC002B9FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F7992C2838C7AC002B9FF5 /* ContentView.swift */; };
 		A0F7992F2838C7AE002B9FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F7992E2838C7AE002B9FF5 /* Assets.xcassets */; };
@@ -16,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0BF65C928392237002906D6 /* MembershipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipCardView.swift; sourceTree = "<group>"; };
+		A0BF65CC28392BE1002906D6 /* FlameBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlameBold.otf; sourceTree = "<group>"; };
+		A0BF65CD28392BE1002906D6 /* FlameSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlameSans.otf; sourceTree = "<group>"; };
+		A0BF65CE28392BE1002906D6 /* FlameRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlameRegular.otf; sourceTree = "<group>"; };
+		A0BF65CF28392BE1002906D6 /* FlameCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlameCondensed.otf; sourceTree = "<group>"; };
+		A0BF65D428392C58002906D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A0BF65D528392D0C002906D6 /* FontsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
 		A0F799272838C7AC002B9FF5 /* BurgerKingClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKingClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F7992A2838C7AC002B9FF5 /* BurgerKingCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingCloneApp.swift; sourceTree = "<group>"; };
 		A0F7992C2838C7AC002B9FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0BF65CB28392BAB002906D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0BF65CC28392BE1002906D6 /* FlameBold.otf */,
+				A0BF65CF28392BE1002906D6 /* FlameCondensed.otf */,
+				A0BF65CE28392BE1002906D6 /* FlameRegular.otf */,
+				A0BF65CD28392BE1002906D6 /* FlameSans.otf */,
+				A0BF65D528392D0C002906D6 /* FontsManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A0F7991E2838C7AC002B9FF5 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +80,8 @@
 		A0F799292838C7AC002B9FF5 /* BurgerKingClone */ = {
 			isa = PBXGroup;
 			children = (
+				A0BF65D428392C58002906D6 /* Info.plist */,
+				A0BF65CB28392BAB002906D6 /* Fonts */,
 				A0F7993C28390A60002B9FF5 /* View */,
 				A0F7992A2838C7AC002B9FF5 /* BurgerKingCloneApp.swift */,
 				A0F7992C2838C7AC002B9FF5 /* ContentView.swift */,
@@ -85,6 +112,7 @@
 			children = (
 				A0F7993A2838DFE9002B9FF5 /* HomeView.swift */,
 				A0F7993E28390ABA002B9FF5 /* HeaderView.swift */,
+				A0BF65C928392237002906D6 /* MembershipCardView.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -147,8 +175,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BF65D228392BE1002906D6 /* FlameRegular.otf in Resources */,
+				A0BF65D328392BE1002906D6 /* FlameCondensed.otf in Resources */,
 				A0F799322838C7AE002B9FF5 /* Preview Assets.xcassets in Resources */,
 				A0F7992F2838C7AE002B9FF5 /* Assets.xcassets in Resources */,
+				A0BF65D128392BE1002906D6 /* FlameSans.otf in Resources */,
+				A0BF65D028392BE1002906D6 /* FlameBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BF65D628392D0C002906D6 /* FontsManager.swift in Sources */,
 				A0F7992D2838C7AC002B9FF5 /* ContentView.swift in Sources */,
 				A0F7993B2838DFE9002B9FF5 /* HomeView.swift in Sources */,
 				A0F7992B2838C7AC002B9FF5 /* BurgerKingCloneApp.swift in Sources */,
 				A0F7993F28390ABA002B9FF5 /* HeaderView.swift in Sources */,
+				A0BF65CA28392237002906D6 /* MembershipCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +327,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BurgerKingClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BurgerKingClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,6 +356,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BurgerKingClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BurgerKingClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
