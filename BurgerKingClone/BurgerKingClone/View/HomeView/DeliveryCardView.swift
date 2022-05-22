@@ -1,5 +1,5 @@
 //
-//  KingOrderCardView.swift
+//  DeliveryCardView.swift
 //  BurgerKingClone
 //
 //  Created by KiWoong Hong on 2022/05/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct KingOrderCardView: View {
+struct DeliveryCardView: View {
     
     let cardWidth = 180
     let cardHeight = 100
@@ -15,11 +15,11 @@ struct KingOrderCardView: View {
     var body: some View {
         HStack {
             VStack {
-                Text("KingOrder")
+                Text("Delivery")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.custom(FontsManager.Flame.bold, size: 14))
                 
-                Text("Pre-order!")
+                Text("To the door!")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.custom(FontsManager.Flame.regular, size: 12))
             }
@@ -29,20 +29,20 @@ struct KingOrderCardView: View {
             
             Spacer()
             
-            Image(systemName: "bag.fill")
+            Image(systemName: "bicycle")
                 .frame(maxHeight: .infinity)
                 .scaledToFit()
                 .padding()
                 .foregroundColor(Color("BurgerBackground"))
         }
-        .background(Color("BurgerRed"))
+        .background(Color("BurgerGreen"))
         .cornerRadius(15)
         .frame(maxHeight: 90)
     }
 }
 
-struct KingOrderCardView_Previews: PreviewProvider {
+struct DeliveryCardView_Previews: PreviewProvider {
     static var previews: some View {
-        KingOrderCardView()
+        DeliveryCardView()
     }
 }

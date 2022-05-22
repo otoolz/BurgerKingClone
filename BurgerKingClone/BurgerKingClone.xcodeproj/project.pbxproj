@@ -17,6 +17,10 @@
 		A0E584C12839CE6000FEB187 /* EventShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584C02839CE6000FEB187 /* EventShowView.swift */; };
 		A0E584C32839EF3700FEB187 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584C22839EF3700FEB187 /* EventDetailView.swift */; };
 		A0E584C5283A298C00FEB187 /* KingOrderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584C4283A298C00FEB187 /* KingOrderCardView.swift */; };
+		A0E584C7283A4F5400FEB187 /* DeliveryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584C6283A4F5400FEB187 /* DeliveryCardView.swift */; };
+		A0E584C9283A58F600FEB187 /* NewProductScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584C8283A58F600FEB187 /* NewProductScrollView.swift */; };
+		A0E584CB283A5D3800FEB187 /* NewProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584CA283A5D3800FEB187 /* NewProductCardView.swift */; };
+		A0E584CD283A616C00FEB187 /* NewProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E584CC283A616C00FEB187 /* NewProductDetailView.swift */; };
 		A0F7992B2838C7AC002B9FF5 /* BurgerKingCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F7992A2838C7AC002B9FF5 /* BurgerKingCloneApp.swift */; };
 		A0F7992D2838C7AC002B9FF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F7992C2838C7AC002B9FF5 /* ContentView.swift */; };
 		A0F7992F2838C7AE002B9FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F7992E2838C7AE002B9FF5 /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 		A0E584C02839CE6000FEB187 /* EventShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventShowView.swift; sourceTree = "<group>"; };
 		A0E584C22839EF3700FEB187 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		A0E584C4283A298C00FEB187 /* KingOrderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingOrderCardView.swift; sourceTree = "<group>"; };
+		A0E584C6283A4F5400FEB187 /* DeliveryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCardView.swift; sourceTree = "<group>"; };
+		A0E584C8283A58F600FEB187 /* NewProductScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductScrollView.swift; sourceTree = "<group>"; };
+		A0E584CA283A5D3800FEB187 /* NewProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductCardView.swift; sourceTree = "<group>"; };
+		A0E584CC283A616C00FEB187 /* NewProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductDetailView.swift; sourceTree = "<group>"; };
 		A0F799272838C7AC002B9FF5 /* BurgerKingClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKingClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F7992A2838C7AC002B9FF5 /* BurgerKingCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingCloneApp.swift; sourceTree = "<group>"; };
 		A0F7992C2838C7AC002B9FF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +133,10 @@
 				A0E584C02839CE6000FEB187 /* EventShowView.swift */,
 				A0E584C22839EF3700FEB187 /* EventDetailView.swift */,
 				A0E584C4283A298C00FEB187 /* KingOrderCardView.swift */,
+				A0E584C6283A4F5400FEB187 /* DeliveryCardView.swift */,
+				A0E584C8283A58F600FEB187 /* NewProductScrollView.swift */,
+				A0E584CA283A5D3800FEB187 /* NewProductCardView.swift */,
+				A0E584CC283A616C00FEB187 /* NewProductDetailView.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -205,12 +217,16 @@
 			files = (
 				A0BF65D628392D0C002906D6 /* FontsManager.swift in Sources */,
 				A0F7992D2838C7AC002B9FF5 /* ContentView.swift in Sources */,
+				A0E584CB283A5D3800FEB187 /* NewProductCardView.swift in Sources */,
 				A0F7993B2838DFE9002B9FF5 /* HomeView.swift in Sources */,
+				A0E584CD283A616C00FEB187 /* NewProductDetailView.swift in Sources */,
 				A0F7992B2838C7AC002B9FF5 /* BurgerKingCloneApp.swift in Sources */,
 				A0E584C5283A298C00FEB187 /* KingOrderCardView.swift in Sources */,
+				A0E584C9283A58F600FEB187 /* NewProductScrollView.swift in Sources */,
 				A0E584C12839CE6000FEB187 /* EventShowView.swift in Sources */,
 				A0E584C32839EF3700FEB187 /* EventDetailView.swift in Sources */,
 				A0F7993F28390ABA002B9FF5 /* HeaderView.swift in Sources */,
+				A0E584C7283A4F5400FEB187 /* DeliveryCardView.swift in Sources */,
 				A0BF65DA28393E97002906D6 /* MembershipView.swift in Sources */,
 				A0BF65CA28392237002906D6 /* MembershipCardView.swift in Sources */,
 			);
