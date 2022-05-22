@@ -16,18 +16,22 @@ struct HomeView: View {
                 
                 // HomeView Body
                 ScrollView {
+                    VStack {
                     //Membership Card View
-                    Button(action: {
-                        isMembership = true
-                    }, label: {
-                        MembershipCardView()
-                    }).fullScreenCover(isPresented: $isMembership, content: {
-                        MembershipView(isMembership: $isMembership)
-                    })
+                        Button(action: {
+                            isMembership = true
+                        }, label: {
+                            MembershipCardView()
+                        }).fullScreenCover(isPresented: $isMembership, content: {
+                            MembershipView(isMembership: $isMembership)
+                        })
                     
-                    // AdShowView
+                    // Event Show View
+                        EventShowView()
+                    
                     // HStack { KingOrderCardView, DeliveryCardView }
                     // NewProductView
+                    }
                 }
                 
                 

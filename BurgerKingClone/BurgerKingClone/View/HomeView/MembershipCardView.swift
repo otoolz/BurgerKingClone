@@ -39,7 +39,8 @@ struct MembershipCardView: View {
         .background(.white)
         .cornerRadius(15)
         .frame(maxWidth: 380, maxHeight: 100)
-        .padding()
+        .padding(.leading, 10)
+        .padding(.trailing, 10)
     }
 }
 
