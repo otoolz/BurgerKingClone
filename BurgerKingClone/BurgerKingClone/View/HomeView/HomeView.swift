@@ -28,6 +28,13 @@ struct HomeView: View {
                     
                     // Event Show View
                         EventShowView()
+                        
+                        HStack {
+                            KingOrderCardView()
+                            KingOrderCardView()
+                        }
+                        .padding(.leading, 15)
+                        .padding(.trailing, 15)
                     
                     // HStack { KingOrderCardView, DeliveryCardView }
                     // NewProductView
