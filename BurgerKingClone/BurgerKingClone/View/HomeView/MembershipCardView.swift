@@ -11,22 +11,20 @@ struct MembershipCardView: View {
     
     @State private var isMembership = false
     
-    let cardWidth = 380
-    let cardHeight = 100
-    
     var body: some View {
         HStack {
             VStack {
-                Text("Membership")
+                Text(" Membership")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .font(.custom(FontsManager.Flame.bold, size: 22))
+                    .font(.custom(FontsManager.Flame.bold, size: 24))
                 
-                Text("Check out membership-only benefits and special coupons right now!")
+                Text("\n Check out membership-only benefits\n and special coupons right now!")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.custom(FontsManager.Flame.regular, size: 12))
+                    .multilineTextAlignment(.leading)
             }
             .padding(.leading, 10)
-            .frame(maxWidth: CGFloat(cardWidth/2) - 20)
+            .frame(maxWidth: UIScreen.main.bounds.width)
             .foregroundColor(Color("BurgerBrown"))
             
             Spacer()
@@ -38,7 +36,7 @@ struct MembershipCardView: View {
         }
         .background(.white)
         .cornerRadius(15)
-        .frame(maxWidth: 380, maxHeight: 100)
+        .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.width / 4)
         .padding(.leading, 15)
         .padding(.trailing, 15)
     }

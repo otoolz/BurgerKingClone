@@ -16,6 +16,7 @@ struct NewProductCardView: View {
                 .resizable()
                 .scaledToFit()
             Text(burger.burgerName)
+                .foregroundColor(Color("BurgerBrown"))
                 .font(.custom(FontsManager.Flame.regular, size: 12))
         }.frame(width: 150, height: 180)
             .background(Color(.white))

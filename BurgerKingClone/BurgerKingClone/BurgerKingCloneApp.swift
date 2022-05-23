@@ -12,7 +12,8 @@ struct BurgerKingCloneApp: App {
     var body: some Scene {
         WindowGroup {
            // ContentView()
-            HomeView()
+           // HomeView()
+            BurgerTabView()
         }
     }
 }

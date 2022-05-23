@@ -38,9 +38,10 @@ struct EventShowView: View {
                     RoundedRectangle(cornerRadius: 15)
                         .stroke(.gray, lineWidth: 2)
                 )
-                .padding(.leading, 10)
-                .padding(.trailing, 10)
-                .frame(width: 380, height: 380)
+                .padding(.leading, 15)
+                .padding(.trailing, 15)
+                //.frame(width: 380, height: 380)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width)
                 .onReceive(timer, perform: { _ in
                     withAnimation {
                         current = current < EventInfo.dummyData.count ? current + 1 : 0
