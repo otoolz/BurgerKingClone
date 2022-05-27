@@ -38,7 +38,7 @@ struct HeaderView: View {
         }
         .accentColor(Color("BurgerRed"))
         .padding()
-        .frame(width: 380, height: 80)
+        .frame(width: UIScreen.main.bounds.width, height: 80)
     }
 }
 

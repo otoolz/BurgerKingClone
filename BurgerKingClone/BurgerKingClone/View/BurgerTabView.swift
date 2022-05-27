@@ -23,7 +23,6 @@ struct BurgerTabView: View {
                     }
                 }
             }.accentColor(Color("BurgerRed"))
-                .
             
             GeometryReader { proxy in
                 ZStack {

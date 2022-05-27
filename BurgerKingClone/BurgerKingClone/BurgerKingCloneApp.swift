@@ -13,7 +13,7 @@ struct BurgerKingCloneApp: App {
         WindowGroup {
            // ContentView()
            // HomeView()
-            BurgerTabView()
+            BurgerKingTabView()
         }
     }
 }
